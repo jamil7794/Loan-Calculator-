@@ -58,6 +58,7 @@
 			children = (
 				A643446420C5E2A2000B0F8E /* Views */,
 				A643445220C5E07D000B0F8E /* AppDelegate.swift */,
+				A643445420C5E07D000B0F8E /* LoanCalculatorVC.swift */,
 				A643445620C5E07D000B0F8E /* Main.storyboard */,
 				A643445920C5E07F000B0F8E /* Assets.xcassets */,
 				A643445B20C5E07F000B0F8E /* LaunchScreen.storyboard */,
@@ -69,7 +70,6 @@
 		A643446420C5E2A2000B0F8E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A643445420C5E07D000B0F8E /* LoanCalculatorVC.swift */,
 				A643446520C5E2CC000B0F8E /* customizedTextField.swift */,
 			);
 			path = Views;

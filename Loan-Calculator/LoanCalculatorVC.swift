@@ -7,9 +7,9 @@
 //
 
 import UIKit
-
+//Core
 class LoanCalculatorVC: UIViewController {
-
+ 
     
     @IBOutlet weak var loanAmount: customizedTextField!
     
