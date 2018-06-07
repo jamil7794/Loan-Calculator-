@@ -13,6 +13,9 @@
 		A643445A20C5E07F000B0F8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A643445920C5E07F000B0F8E /* Assets.xcassets */; };
 		A643445D20C5E07F000B0F8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A643445B20C5E07F000B0F8E /* LaunchScreen.storyboard */; };
 		A643446620C5E2CC000B0F8E /* customizedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A643446520C5E2CC000B0F8E /* customizedTextField.swift */; };
+		A643446820C613A8000B0F8E /* customizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A643446720C613A8000B0F8E /* customizedButton.swift */; };
+		A643446A20C6165E000B0F8E /* aprField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A643446920C6165E000B0F8E /* aprField.swift */; };
+		A643446F20C64D52000B0F8E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A643446E20C64D52000B0F8E /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A643445C20C5E07F000B0F8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A643445E20C5E07F000B0F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A643446520C5E2CC000B0F8E /* customizedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizedTextField.swift; sourceTree = "<group>"; };
+		A643446720C613A8000B0F8E /* customizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customizedButton.swift; sourceTree = "<group>"; };
+		A643446920C6165E000B0F8E /* aprField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aprField.swift; sourceTree = "<group>"; };
+		A643446E20C64D52000B0F8E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		A643445120C5E07D000B0F8E /* Loan-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				A643446D20C64D40000B0F8E /* Model */,
 				A643446420C5E2A2000B0F8E /* Views */,
 				A643445220C5E07D000B0F8E /* AppDelegate.swift */,
 				A643445420C5E07D000B0F8E /* LoanCalculatorVC.swift */,
@@ -71,8 +78,18 @@
 			isa = PBXGroup;
 			children = (
 				A643446520C5E2CC000B0F8E /* customizedTextField.swift */,
+				A643446720C613A8000B0F8E /* customizedButton.swift */,
+				A643446920C6165E000B0F8E /* aprField.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A643446D20C64D40000B0F8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A643446E20C64D52000B0F8E /* File.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A643446820C613A8000B0F8E /* customizedButton.swift in Sources */,
+				A643446F20C64D52000B0F8E /* File.swift in Sources */,
 				A643445520C5E07D000B0F8E /* LoanCalculatorVC.swift in Sources */,
+				A643446A20C6165E000B0F8E /* aprField.swift in Sources */,
 				A643445320C5E07D000B0F8E /* AppDelegate.swift in Sources */,
 				A643446620C5E2CC000B0F8E /* customizedTextField.swift in Sources */,
 			);
